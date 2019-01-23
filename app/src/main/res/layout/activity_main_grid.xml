@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:rowCount="4"
+    android:columnCount="2"
+    android:layout_gravity="fill">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="2"
+        android:text="@string/widgets"
+        android:textSize="30sp"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="196dp"
+        android:layout_height="wrap_content"
+        android:text="@string/Button"
+        />
+
+    <ImageButton
+        tools:ignore="ContentDescription"
+        android:id="@+id/imageButton"
+        android:src="@drawable/flag"
+        android:layout_width="214dp"
+        android:layout_height="70dp"
+         />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/check" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/switchbox" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="2"
+        android:inputType="textPersonName"
+        android:hint="@string/answer"
+         />
+
+
+</GridLayout>

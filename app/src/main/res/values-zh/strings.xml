@@ -3,4 +3,9 @@
     <string name="app_name">安卓实验</string>
     <string name="hello_message">世界，你好!</string>
     <string name="ButtonText">我是按钮</string>
+    <string name="Button">按钮</string>
+    <string name="widgets">这些是我的组件：</string>
+    <string name="check">这里打勾!</string>
+    <string name="switchbox">开/关</string>
+    <string name="answer">在这里输入你的答案</string>
 </resources>

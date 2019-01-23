@@ -2,4 +2,9 @@
     <string name="app_name">Android Labs</string>
     <string name="hello_message">Hello world!</string>
     <string name="ButtonText">I\'m a button</string>
+    <string name="Button">BUTTON</string>
+    <string name="widgets">Here are my widgets:</string>
+    <string name="check">Check this out!</string>
+    <string name="switchbox">Switch on/off</string>
+    <string name="answer">Type your answer in here</string>
 </resources>
