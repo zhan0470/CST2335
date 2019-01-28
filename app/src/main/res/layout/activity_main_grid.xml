@@ -1,54 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent" android:layout_height="match_parent"
-    android:rowCount="4"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:columnCount="2"
-    android:layout_gravity="fill">
+    android:orientation="horizontal"
+    android:rowCount="4"
+    >
+
 
     <TextView
-        android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_columnSpan="2"
-        android:text="@string/widgets"
-        android:textSize="30sp"/>
+        android:text="@string/here_are_my_widgets"
+        android:textSize="30sp" />
 
     <Button
-        android:id="@+id/button2"
         android:layout_width="196dp"
         android:layout_height="wrap_content"
-        android:text="@string/Button"
-        />
+        android:gravity="center"
+        android:text="@string/button"
+        tools:ignore="NestedWeights" />
+
 
     <ImageButton
-        tools:ignore="ContentDescription"
-        android:id="@+id/imageButton"
-        android:src="@drawable/flag"
-        android:layout_width="214dp"
+        android:id="@+id/imagebutton"
+        android:layout_width="200dp"
         android:layout_height="70dp"
-         />
-
+        android:gravity="fill"
+        android:scaleType="fitCenter"
+        android:src="@drawable/flag"
+        tools:ignore="ContentDescription" />
     <CheckBox
-        android:id="@+id/checkBox"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/check" />
+        android:text="@string/check_this_out" />
 
     <Switch
-        android:id="@+id/switch1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/switchbox" />
+         android:text="@string/switch_on_off"
+        tools:ignore="HardcodedText" />
 
     <EditText
-        android:id="@+id/editText"
-        android:layout_width="match_parent"
+        android:layout_width="411dp"
         android:layout_height="wrap_content"
-        android:layout_columnSpan="2"
+        android:hint="@string/type_your_answer_here"
         android:inputType="textPersonName"
-        android:hint="@string/answer"
-         />
-
-
+        tools:layout_columnSpan="2"
+        tools:ignore="Autofill"/>
 </GridLayout>
