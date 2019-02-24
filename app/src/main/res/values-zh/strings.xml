@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">实验一</string>
+    <string name="app_name">实验三</string>
     <string name="hello_message">你好！</string>
     <string name="ButtonText">按钮</string>
     <string name="here_are_my_widgets">窗口工具：</string>
@@ -8,4 +8,16 @@
     <string name="type_your_answer_here">请输入你的答案</string>
     <string name="check_this_out">勾选!</string>
     <string name="switch_on_off">开 / 关</string>
+    <string name="emailPrompt">输入Email地址：</string>
+    <string name="emailHint">在这里输入Email</string>
+    <string name="passwdPrompt">输入密码：</string>
+    <string name="loginButtonText">登录</string>
+    <string name="title_activity_profile">简介界面</string>
+    <string name="yourProfile">你的简介</string>
+    <string name="yourName">你的名字：</string>
+    <string name="enterName">输入你的名字</string>
+    <string name="yourEmail">你的email：</string>
+    <string name="enterYourEmail">输入你的email</string>
+    <string name="yourPicture">你的照片：</string>
+    <string name="clickTheButton">点按钮拍照</string>
 </resources>

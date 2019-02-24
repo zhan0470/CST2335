@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Lab1</string>
+    <string name="app_name">Lab3</string>
     <string name="hello_message">Hello World!</string>
     <string name="ButtonText">I\'m a button</string>
     <string name="here_are_my_widgets">Here are my widgets:</string>
@@ -7,4 +7,16 @@
     <string name="type_your_answer_here">Type your answer here</string>
     <string name="check_this_out">Check this out!</string>
     <string name="switch_on_off">Switch on / off</string>
+    <string name="emailPrompt">Enter your email address:</string>
+    <string name="emailHint">Type email here</string>
+    <string name="passwdPrompt">Type your password:</string>
+    <string name="loginButtonText">LOGIN</string>
+    <string name="title_activity_profile">Profile Activity</string>
+    <string name="yourProfile">Your profile</string>
+    <string name="yourName">Your name:</string>
+    <string name="enterName">Enter your name</string>
+    <string name="yourEmail">Your email:</string>
+    <string name="enterYourEmail">Enter your email</string>
+    <string name="yourPicture">Your picture:</string>
+    <string name="clickTheButton">Click the button above to take a picture</string>
 </resources>
