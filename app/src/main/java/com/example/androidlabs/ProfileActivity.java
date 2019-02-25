@@ -83,5 +83,10 @@ public class ProfileActivity extends AppCompatActivity {
         Log.e(ACTIVITY_NAME, "In function:" + " onActivityResult()");
     }
 
+    public void gotoChatActivity(View view) {
+        Intent intent = new Intent(this, ChatRoomActivity.class);
+        startActivity(intent);
+    }
+
 }
 

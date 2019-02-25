@@ -20,4 +20,9 @@
     <string name="enterYourEmail">输入你的email</string>
     <string name="yourPicture">你的照片：</string>
     <string name="clickTheButton">点按钮拍照</string>
+    <string name="gotochat">进入聊天</string>
+    <string name="title_activity_chat_room">聊天室</string>
+    <string name="sent">发送</string>
+    <string name="receiveMessage">接收</string>
+    <string name="typehere">在这里输入</string>
 </resources>

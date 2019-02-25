@@ -19,4 +19,9 @@
     <string name="enterYourEmail">Enter your email</string>
     <string name="yourPicture">Your picture:</string>
     <string name="clickTheButton">Click the button above to take a picture</string>
+    <string name="gotochat">Go to chat</string>
+    <string name="title_activity_chat_room">Chat Room</string>
+    <string name="sent">Send</string>
+    <string name="receiveMessage">Receive</string>
+    <string name="typehere">Type here</string>
 </resources>
